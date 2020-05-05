@@ -1,4 +1,4 @@
-# SearchAlgorithmsAnalysis
+# Search Algorithms Analysis
 Dr.Khadangi Data structure &amp; Algorithm analysis
 
 # Collaborators
