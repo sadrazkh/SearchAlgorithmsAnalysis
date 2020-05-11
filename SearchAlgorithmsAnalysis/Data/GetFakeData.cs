@@ -11,7 +11,7 @@ namespace Data
     {
         
 
-        private static List<string> _fakeData=new List<string>();
+        private static List<string> _fakeData = new List<string>();
 
 
         public static List<string> GetAll()
@@ -29,6 +29,6 @@ namespace Data
             return _fakeData;
         }
         
-
+        // kooft
     }
 }

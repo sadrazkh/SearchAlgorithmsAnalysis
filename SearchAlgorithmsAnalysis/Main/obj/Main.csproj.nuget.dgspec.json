@@ -1,9 +1,10 @@
 {
   "format": 1,
   "restore": {
-    "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Main\\Main.csproj": {}
+    "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Main\\Main.csproj": {}
   },
   "projects": {
+<<<<<<< HEAD
     "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Algorithms\\Algorithms.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -57,16 +58,77 @@
       }
     },
     "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Data\\Data.csproj": {
+=======
+    "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Algorithms\\Algorithms.csproj": {
+>>>>>>> d2a017991faea1557f6a1577f82854f261140c27
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Data\\Data.csproj",
-        "projectName": "Data",
-        "projectPath": "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\Saleh\\.nuget\\packages\\",
-        "outputPath": "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Data\\obj\\",
+        "projectUniqueName": "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Algorithms\\Algorithms.csproj",
+        "projectName": "Algorithms",
+        "projectPath": "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Algorithms\\Algorithms.csproj",
+        "packagesPath": "C:\\Users\\Sadra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Algorithms\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Saleh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sadra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Data\\Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\Sadra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sadra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -114,21 +176,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Main\\Main.csproj": {
+    "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Main\\Main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Main\\Main.csproj",
+        "projectUniqueName": "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Main\\Main.csproj",
         "projectName": "Main",
-        "projectPath": "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Main\\Main.csproj",
-        "packagesPath": "C:\\Users\\Saleh\\.nuget\\packages\\",
-        "outputPath": "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Main\\obj\\",
+        "projectPath": "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Main\\Main.csproj",
+        "packagesPath": "C:\\Users\\Sadra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Main\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Saleh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sadra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -141,11 +206,19 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+<<<<<<< HEAD
               "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Algorithms\\Algorithms.csproj": {
                 "projectPath": "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Algorithms\\Algorithms.csproj"
               },
               "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Data\\Data.csproj": {
                 "projectPath": "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Data\\Data.csproj"
+=======
+              "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Algorithms\\Algorithms.csproj": {
+                "projectPath": "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Algorithms\\Algorithms.csproj"
+              },
+              "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Data\\Data.csproj"
+>>>>>>> d2a017991faea1557f6a1577f82854f261140c27
               }
             }
           }
@@ -173,7 +246,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
