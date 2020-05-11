@@ -9,19 +9,22 @@ namespace Data
 {
     public static class GetFakeData
     {
-        private const string _fileName = "chosen_sorted_fake_data.txt";
-        
-        private static List<string> _fakeData = new List<string>();
+        private const string _fileName = @"C:\Users\Sadra\source\repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Data\chosen_sorted_fake_data.txt";
+
+        private static List<string> _fakeData;
 
         public static List<string> GetAll()
         {
-            using 
-            foreach (var item in COLLECTION)
+
+            using (StreamReader sr = new StreamReader(_fileName))
             {
-                _fakeData.Append(item);
+                string line = sr.ReadLine();
+                _fakeData.Add(line);
             }
+
             return _fakeData;
         }
+        
 
     }
 }

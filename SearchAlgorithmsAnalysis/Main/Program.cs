@@ -1,4 +1,5 @@
 ﻿using System;
+using Data;
 
 namespace Main
 {
@@ -6,7 +7,10 @@ namespace Main
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var t = GetFakeData.GetAll();
+            Console.WriteLine(t);
+
+            Console.ReadLine();
         }
     }
 }

@@ -1,0 +1,9 @@
+C:\Users\Sadra\source\repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\TestUnit\bin\Debug\netcoreapp3.1\TestUnit.deps.json
+C:\Users\Sadra\source\repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\TestUnit\bin\Debug\netcoreapp3.1\TestUnit.dll
+C:\Users\Sadra\source\repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\TestUnit\bin\Debug\netcoreapp3.1\TestUnit.pdb
+C:\Users\Sadra\source\repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\TestUnit\obj\Debug\netcoreapp3.1\TestUnit.csprojAssemblyReference.cache
+C:\Users\Sadra\source\repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\TestUnit\obj\Debug\netcoreapp3.1\TestUnit.csproj.CoreCompileInputs.cache
+C:\Users\Sadra\source\repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\TestUnit\obj\Debug\netcoreapp3.1\TestUnit.AssemblyInfoInputs.cache
+C:\Users\Sadra\source\repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\TestUnit\obj\Debug\netcoreapp3.1\TestUnit.AssemblyInfo.cs
+C:\Users\Sadra\source\repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\TestUnit\obj\Debug\netcoreapp3.1\TestUnit.dll
+C:\Users\Sadra\source\repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\TestUnit\obj\Debug\netcoreapp3.1\TestUnit.pdb
