@@ -8,7 +8,9 @@ namespace Main
         static void Main(string[] args)
         {
             var t = GetFakeData.GetAll();
-            Console.WriteLine(t);
+            foreach(var item in t)
+                Console.WriteLine(item);
+
 
             Console.ReadLine();
         }
