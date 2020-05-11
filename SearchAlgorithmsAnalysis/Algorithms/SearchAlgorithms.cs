@@ -19,8 +19,10 @@ namespace Algorithms
             watch.Stop();
             TimeSpan time = watch.Elapsed;
             string res = $"{time.Hours:00}:{time.Minutes:00}:{time.Seconds:00}.{time.Milliseconds / 10:00}";
+
             //string res = time.ToString();
             //https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.stopwatch?view=netcore-3.1
+
             return res;
         }
     }
