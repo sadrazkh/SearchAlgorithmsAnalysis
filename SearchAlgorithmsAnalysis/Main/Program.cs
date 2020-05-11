@@ -8,11 +8,12 @@ namespace Main
         static void Main(string[] args)
         {
             var t = GetFakeData.GetAll();
-            foreach(var item in t)
-                Console.WriteLine(item);
+            //foreach(var item in t)
+            //    Console.WriteLine(item);
 
+            Console.WriteLine(Algorithms.SearchAlgorithms.LinearSearch("zoe.wright", t));
 
-            Console.ReadLine();
+            //Console.ReadLine();
         }
     }
 }
