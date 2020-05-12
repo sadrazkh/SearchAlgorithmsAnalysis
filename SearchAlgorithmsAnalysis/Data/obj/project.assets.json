@@ -569,19 +569,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Saleh\\.nuget\\packages\\": {}
+    "C:\\Users\\Sadra\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Data\\Data.csproj",
-      "packagesPath": "C:\\Users\\Saleh\\.nuget\\packages\\",
-      "outputPath": "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Data\\obj\\",
+      "projectPath": "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Data\\Data.csproj",
+      "packagesPath": "C:\\Users\\Sadra\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Data\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Saleh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sadra\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

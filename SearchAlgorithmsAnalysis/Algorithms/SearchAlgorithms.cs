@@ -65,11 +65,15 @@ namespace Algorithms
         }
 
 
-        private static int StringDiff(string s1, string s2, int num)
+        public static double StringDiff(string s1, string s2, int num)
         {
-            int diff = 0;
+            double diff = 0;
+            int pow = num - 1;
             for (int i = 0; i < num; i++)
-                diff += s1[i] - s2[i];
+            {
+                diff += (s1[i] - s2[i]) * (Math.Pow(10, pow));
+                pow -= 1;
+            }
             return diff;
         }
     }

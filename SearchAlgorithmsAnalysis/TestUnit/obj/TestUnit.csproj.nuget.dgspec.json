@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\TestUnit\\TestUnit.csproj": {}
+    "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\TestUnit\\TestUnit.csproj": {}
   },
   "projects": {
-    "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\TestUnit\\TestUnit.csproj": {
+    "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\TestUnit\\TestUnit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\TestUnit\\TestUnit.csproj",
+        "projectUniqueName": "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\TestUnit\\TestUnit.csproj",
         "projectName": "TestUnit",
-        "projectPath": "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\TestUnit\\TestUnit.csproj",
-        "packagesPath": "C:\\Users\\Saleh\\.nuget\\packages\\",
-        "outputPath": "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\TestUnit\\obj\\",
+        "projectPath": "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\TestUnit\\TestUnit.csproj",
+        "packagesPath": "C:\\Users\\Sadra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\TestUnit\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Saleh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sadra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
