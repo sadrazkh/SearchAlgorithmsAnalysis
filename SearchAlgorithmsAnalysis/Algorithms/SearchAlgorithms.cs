@@ -18,18 +18,15 @@ namespace Algorithms
                 i++;
             watch.Stop();
             TimeSpan time = watch.Elapsed;
-<<<<<<< HEAD
+
             string res = $"{time.Hours:00}:{time.Minutes:00}:{time.Seconds:00}.{time.Milliseconds:00}";
-=======
-            string res = $"{time.Hours:00}:{time.Minutes:00}:{time.Seconds:00}.{time.Milliseconds / 10:00}";
->>>>>>> d2a017991faea1557f6a1577f82854f261140c27
+
+            //string res = $"{time.Hours:00}:{time.Minutes:00}:{time.Seconds:00}.{time.Milliseconds / 10:00}";
+
             //string res = time.ToString();
             //https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.stopwatch?view=netcore-3.1
             return res;
         }
-<<<<<<< HEAD
 
-=======
->>>>>>> d2a017991faea1557f6a1577f82854f261140c27
     }
 }
