@@ -16,10 +16,10 @@ namespace Data
 
         public static List<string> GetAll()
         {
-            string _fileName = Directory.GetCurrentDirectory() + "\\..\\..\\..\\..\\data\\chosen_sorted_fake_data.txt";
+            string _fileName = Directory.GetCurrentDirectory() + "\\..\\..\\..\\..\\data\\FakeData.txt";
             using (StreamReader sr = new StreamReader(@_fileName))
             {
-                for (int i = 0; i < 381; i++)
+                for (int i = 0; sr.Peek() > -1 ; i++)
                 {
                     string line = sr.ReadLine();
                     _fakeData.Add(line);

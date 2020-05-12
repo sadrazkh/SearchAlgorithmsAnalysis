@@ -28,5 +28,10 @@ D:\University\Books\Data Structure\Projects\SearchAlgorithmsAnalysis\SearchAlgor
 D:\University\Books\Data Structure\Projects\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Main\obj\Debug\netcoreapp3.1\Main.csproj.CopyComplete
 D:\University\Books\Data Structure\Projects\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Main\obj\Debug\netcoreapp3.1\Main.dll
 D:\University\Books\Data Structure\Projects\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Main\obj\Debug\netcoreapp3.1\Main.pdb
+<<<<<<< HEAD
+D:\University\Books\Data Structure\Projects\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Main\bin\Debug\netcoreapp3.1\Algorithms.dll
+D:\University\Books\Data Structure\Projects\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Main\bin\Debug\netcoreapp3.1\Algorithms.pdb
+=======
 C:\Users\Sadra\source\repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Main\bin\Debug\netcoreapp3.1\Algorithms.dll
 C:\Users\Sadra\source\repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Main\bin\Debug\netcoreapp3.1\Algorithms.pdb
+>>>>>>> d2a017991faea1557f6a1577f82854f261140c27
