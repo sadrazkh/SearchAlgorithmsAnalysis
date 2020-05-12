@@ -14,4 +14,3 @@ D:\University\Books\Data Structure\Projects\SearchAlgorithmsAnalysis\SearchAlgor
 D:\University\Books\Data Structure\Projects\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\TestUnit\obj\Debug\netcoreapp3.1\TestUnit.AssemblyInfo.cs
 D:\University\Books\Data Structure\Projects\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\TestUnit\obj\Debug\netcoreapp3.1\TestUnit.dll
 D:\University\Books\Data Structure\Projects\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\TestUnit\obj\Debug\netcoreapp3.1\TestUnit.pdb
-D:\University\Books\Data Structure\Projects\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\TestUnit\obj\Debug\netcoreapp3.1\TestUnit.csprojAssemblyReference.cache
