@@ -56,8 +56,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Algorithms\\Algorithms.csproj": {
-              "projectPath": "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Algorithms\\Algorithms.csproj"
+            "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Algorithms\\Algorithms.csproj": {
+              "projectPath": "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Algorithms\\Algorithms.csproj"
             }
           }
         }
