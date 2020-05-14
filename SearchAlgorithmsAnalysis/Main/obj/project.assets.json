@@ -127,6 +127,19 @@
         "runtime": {
           "bin/placeholder/Data.dll": {}
         }
+      },
+      "TestUnit/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Algorithms": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TestUnit.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TestUnit.dll": {}
+        }
       }
     }
   },
@@ -594,32 +607,34 @@
       "type": "project",
       "path": "../Data/Data.csproj",
       "msbuildProject": "../Data/Data.csproj"
+    },
+    "TestUnit/1.0.0": {
+      "type": "project",
+      "path": "../TestUnit/TestUnit.csproj",
+      "msbuildProject": "../TestUnit/TestUnit.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Algorithms >= 1.0.0",
-      "Data >= 1.0.0"
+      "Data >= 1.0.0",
+      "TestUnit >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sadra\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Saleh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Main\\Main.csproj",
+      "projectUniqueName": "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Main\\Main.csproj",
       "projectName": "Main",
-      "projectPath": "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Main\\Main.csproj",
-      "packagesPath": "C:\\Users\\Sadra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Main\\obj\\",
+      "projectPath": "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Main\\Main.csproj",
+      "packagesPath": "C:\\Users\\Saleh\\.nuget\\packages\\",
+      "outputPath": "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Main\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Sadra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Saleh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -632,11 +647,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Algorithms\\Algorithms.csproj": {
-              "projectPath": "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Algorithms\\Algorithms.csproj"
+            "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Algorithms\\Algorithms.csproj": {
+              "projectPath": "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Algorithms\\Algorithms.csproj"
             },
-            "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Data\\Data.csproj"
+            "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Data\\Data.csproj": {
+              "projectPath": "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Data\\Data.csproj"
+            },
+            "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\TestUnit\\TestUnit.csproj": {
+              "projectPath": "D:\\University\\Books\\Data Structure\\Projects\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\TestUnit\\TestUnit.csproj"
             }
           }
         }

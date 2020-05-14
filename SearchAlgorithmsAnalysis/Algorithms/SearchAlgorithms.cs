@@ -7,7 +7,7 @@ namespace Algorithms
 {
     public class SearchAlgorithms
     {
-        public static string LinearSearch(string element, List<string> namesList)
+        public static int LinearSearch(string element, List<string> namesList)
         {
             var watch = new System.Diagnostics.Stopwatch();
             int a = namesList.Capacity;
@@ -19,13 +19,13 @@ namespace Algorithms
             watch.Stop();
             TimeSpan time = watch.Elapsed;
 
-            string res = $"{time.Hours:00}:{time.Minutes:00}:{time.Seconds:00}.{time.Milliseconds:00}";
-            return res;
+            //string res = $"{time.Hours:00}:{time.Minutes:00}:{time.Seconds:00}.{time.Milliseconds:00}";
+            return time.Milliseconds;
         }
 
 
 
-        public static string InterpolationSearch(string element, List<string> namesList)
+        public static int InterpolationSearch2(string element, List<string> namesList)
         {
             var watch1 = new System.Diagnostics.Stopwatch();
             int first = 0, last = namesList.Count - 1;
@@ -40,11 +40,47 @@ namespace Algorithms
                     if (namesList[first].Equals(element))
                     {
                         watch1.Stop();
+                        break;
+                    }
+                }
+                d= (double)StringDiff(element, namesList[first], 2) / StringDiff(namesList[last], namesList[first], 2);
+                b = (int)((last - first) * d);
+                if (namesList[b].Equals(element))
+                {
+                    watch1.Stop();
+                    break;
+                }
+                if (namesList[b].CompareTo(element) < 0)
+                    first = b + 1;
+
+                else
+                    last = b -1;
+            }
+            TimeSpan time1 = watch1.Elapsed;
+            //string res1 = $"{time1.Hours:00}:{time1.Minutes:00}:{time1.Seconds:00}.{time1.Milliseconds:00}";
+            return time1.Milliseconds;
+        }
+
+        public static int InterpolationSearch1(string element, List<string> namesList)
+        {
+            var watch1 = new System.Diagnostics.Stopwatch();
+            int first = 0, last = namesList.Count - 1;
+
+            watch1.Start();
+            int b=0;
+            double d;
+            while (first <= last && namesList[first].CompareTo(element) <= 0 && namesList[last].CompareTo(element) >= 0)
+            {
+                if (first == last)
+                {
+                    if (namesList[first].Equals(element))
+                    {
+                        watch1.Stop();
                         Console.WriteLine(namesList[first]);
                         break;
                     }
                 }
-                d= (double)StringDiff(element, namesList[first], 3) / StringDiff(namesList[last], namesList[first], 3);
+                d = (double)StringDiff(element, namesList[first], 1) / StringDiff(namesList[last], namesList[first], 1);
                 b = (int)((last - first) * d);
                 if (namesList[b].Equals(element))
                 {
@@ -56,24 +92,20 @@ namespace Algorithms
                     first = b + 1;
 
                 else
-                    last = b -1;
+                    last = b - 1;
 
             }
             TimeSpan time1 = watch1.Elapsed;
-            string res1 = $"{time1.Hours:00}:{time1.Minutes:00}:{time1.Seconds:00}.{time1.Milliseconds:00}";
-            return res1;
+            //string res1 = $"{time1.Hours:00}:{time1.Minutes:00}:{time1.Seconds:00}.{time1.Milliseconds:00}";
+            return time1.Milliseconds;
         }
 
 
-        public static double StringDiff(string s1, string s2, int num)
+        private static int StringDiff(string s1, string s2, int num)
         {
-            double diff = 0;
-            int pow = num - 1;
+            int diff = 0;
             for (int i = 0; i < num; i++)
-            {
-                diff += (s1[i] - s2[i]) * (Math.Pow(10, pow));
-                pow -= 1;
-            }
+                diff += (s1[i] - s2[i])* (int)Math.Pow(10,num-1);
             return diff;
         }
     }

@@ -9,7 +9,8 @@
       "Main/1.0.0": {
         "dependencies": {
           "Algorithms": "1.0.0",
-          "Data": "1.0.0"
+          "Data": "1.0.0",
+          "TestUnit": "1.0.0"
         },
         "runtime": {
           "Main.dll": {}
@@ -82,6 +83,14 @@
         },
         "runtime": {
           "Data.dll": {}
+        }
+      },
+      "TestUnit/1.0.0": {
+        "dependencies": {
+          "Algorithms": "1.0.0"
+        },
+        "runtime": {
+          "TestUnit.dll": {}
         }
       }
     }
@@ -161,6 +170,11 @@
       "sha512": ""
     },
     "Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TestUnit/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

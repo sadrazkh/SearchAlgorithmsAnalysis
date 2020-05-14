@@ -15,21 +15,5 @@ D:\University\Books\Data Structure\Projects\SearchAlgorithmsAnalysis\SearchAlgor
 D:\University\Books\Data Structure\Projects\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Main\obj\Debug\netcoreapp3.1\Main.dll
 D:\University\Books\Data Structure\Projects\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Main\obj\Debug\netcoreapp3.1\Main.pdb
 D:\University\Books\Data Structure\Projects\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Main\obj\Debug\netcoreapp3.1\Main.genruntimeconfig.cache
-C:\Users\Sadra\source\repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Main\bin\Debug\netcoreapp3.1\Main.exe
-C:\Users\Sadra\source\repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Main\bin\Debug\netcoreapp3.1\Main.deps.json
-C:\Users\Sadra\source\repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Main\bin\Debug\netcoreapp3.1\Main.runtimeconfig.json
-C:\Users\Sadra\source\repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Main\bin\Debug\netcoreapp3.1\Main.runtimeconfig.dev.json
-C:\Users\Sadra\source\repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Main\bin\Debug\netcoreapp3.1\Main.dll
-C:\Users\Sadra\source\repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Main\bin\Debug\netcoreapp3.1\Main.pdb
-C:\Users\Sadra\source\repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Main\bin\Debug\netcoreapp3.1\Algorithms.dll
-C:\Users\Sadra\source\repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Main\bin\Debug\netcoreapp3.1\Data.dll
-C:\Users\Sadra\source\repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Main\bin\Debug\netcoreapp3.1\Algorithms.pdb
-C:\Users\Sadra\source\repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Main\bin\Debug\netcoreapp3.1\Data.pdb
-C:\Users\Sadra\source\repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Main\obj\Debug\netcoreapp3.1\Main.csprojAssemblyReference.cache
-C:\Users\Sadra\source\repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Main\obj\Debug\netcoreapp3.1\Main.csproj.CoreCompileInputs.cache
-C:\Users\Sadra\source\repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Main\obj\Debug\netcoreapp3.1\Main.AssemblyInfoInputs.cache
-C:\Users\Sadra\source\repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Main\obj\Debug\netcoreapp3.1\Main.AssemblyInfo.cs
-C:\Users\Sadra\source\repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Main\obj\Debug\netcoreapp3.1\Main.csproj.CopyComplete
-C:\Users\Sadra\source\repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Main\obj\Debug\netcoreapp3.1\Main.dll
-C:\Users\Sadra\source\repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Main\obj\Debug\netcoreapp3.1\Main.pdb
-C:\Users\Sadra\source\repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Main\obj\Debug\netcoreapp3.1\Main.genruntimeconfig.cache
+D:\University\Books\Data Structure\Projects\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Main\bin\Debug\netcoreapp3.1\TestUnit.dll
+D:\University\Books\Data Structure\Projects\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\Main\bin\Debug\netcoreapp3.1\TestUnit.pdb
