@@ -113,10 +113,10 @@ namespace Algorithms
         }
 
 
-        public static int InterpolationSearch_new(string element, List<string> namesList)
+        public static int InterpolationSearch_new(string element, List<string> namesList, List<int> indexes)
         {
-            int first = (element.StartsWith('a')) ? 0 : Percentages(namesList)[(int)element[0] - 97 - 1];
-            int last = Percentages(namesList)[(int)element[0]-97];
+            int first = (element.StartsWith('a')) ? 0 : indexes[(int)element[0] - 97 - 1];
+            int last = indexes[(int)element[0]-97];
             return linear_search(element, namesList , first , last);
         }
 
@@ -130,7 +130,7 @@ namespace Algorithms
             return diff;
         }
 
-        private static List<int> Percentages(List<string> a)
+        public static List<int> Percentages(List<string> a)
         {
             List<int> result = new List<int>(new int[26]);
             foreach(var element in a)

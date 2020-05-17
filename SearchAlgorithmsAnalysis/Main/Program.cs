@@ -2,6 +2,7 @@
 using Algorithms;
 using Data;
 using TestUnit;
+using System.Collections.Generic;
 
 namespace Main
 {
@@ -12,7 +13,7 @@ namespace Main
             var watch = new System.Diagnostics.Stopwatch();
             watch.Start();
             var t = GetFakeData.GetAll();
-            Console.WriteLine(SearchAlgorithms.InterpolationSearch_new("farid",t));
+            List<int> indexes = SearchAlgorithms.Percentages(t);
             //foreach (var item in t)
             //    Console.WriteLine(item);
 
