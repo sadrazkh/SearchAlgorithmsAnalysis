@@ -8,8 +8,10 @@
     ".NETCoreApp,Version=v3.1": {
       "Data/1.0.0": {
         "dependencies": {
+          "Algorithms": "1.0.0",
           "System.IO": "4.3.0",
-          "System.IO.FileSystem": "4.3.0"
+          "System.IO.FileSystem": "4.3.0",
+          "TestUnit": "1.0.0"
         },
         "runtime": {
           "Data.dll": {}
@@ -68,6 +70,19 @@
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
+        }
+      },
+      "Algorithms/1.0.0": {
+        "runtime": {
+          "Algorithms.dll": {}
+        }
+      },
+      "TestUnit/1.0.0": {
+        "dependencies": {
+          "Algorithms": "1.0.0"
+        },
+        "runtime": {
+          "TestUnit.dll": {}
         }
       }
     }
@@ -140,6 +155,16 @@
       "sha512": "sha512-LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
       "path": "system.threading.tasks/4.3.0",
       "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
+    },
+    "Algorithms/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TestUnit/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

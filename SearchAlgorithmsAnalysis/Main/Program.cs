@@ -10,10 +10,15 @@ namespace Main
     {
         static void Main(string[] args)
         {
-            var watch = new System.Diagnostics.Stopwatch();
-            watch.Start();
-            var t = GetFakeData.GetAll();
-            List<int> indexes = SearchAlgorithms.Percentages(t);
+            //var watch = new System.Diagnostics.Stopwatch();
+            //watch.Start();
+            var allData = GetFakeData.GetAll();
+            var testData = GetFakeData.GetTestData();
+            //List<int> indexes = SearchAlgorithms.Percentages(t);
+
+            Console.WriteLine(TestUnit.Tests.LinearSearchAverage(allData,testData));
+
+
             //foreach (var item in t)
             //    Console.WriteLine(item);
 
@@ -25,5 +30,7 @@ namespace Main
             //Console.WriteLine($"{times.Hours:00}:{times.Minutes:00}:{times.Seconds:00}.{times.Milliseconds:00}");
 
         }
+
+        
     }
 }

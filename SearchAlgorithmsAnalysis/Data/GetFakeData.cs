@@ -28,7 +28,22 @@ namespace Data
 
             return _fakeData;
         }
-        
+
+        public static List<string> GetTestData()
+        {
+            string _fileName = Directory.GetCurrentDirectory() + "\\..\\..\\..\\..\\data\\TextFile1.txt";
+            using (StreamReader sr = new StreamReader(@_fileName))
+            {
+                for (int i = 0; sr.Peek() > -1; i++)
+                {
+                    string line = sr.ReadLine();
+                    _fakeData.Add(line);
+                }
+            }
+
+            return _fakeData;
+        }
+
         // kooft
     }
 }

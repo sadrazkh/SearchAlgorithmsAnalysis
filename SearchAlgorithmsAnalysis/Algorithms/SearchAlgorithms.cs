@@ -25,7 +25,6 @@ namespace Algorithms
         }
 
 
-
         private static int linear_search(string element, List<string> namesList, int low, int high)
         {
             int i = low;
@@ -112,14 +111,12 @@ namespace Algorithms
             return time1.Milliseconds;
         }
 
-
         public static int InterpolationSearch_new(string element, List<string> namesList, List<int> indexes)
         {
             int first = (element.StartsWith('a')) ? 0 : indexes[(int)element[0] - 97 - 1];
             int last = indexes[(int)element[0]-97];
             return linear_search(element, namesList , first , last);
         }
-
 
 
         private static int StringDiff(string s1, string s2, int num)
@@ -150,6 +147,8 @@ namespace Algorithms
         //Mahmood Functions
         public static int binarynnorecursive(int low, int high, List<string> s, string x, int n)
         {
+            var watch = new System.Diagnostics.Stopwatch();
+            TimeSpan time;
             while (low <= high)
             {
                 if (x == s[low])
@@ -169,6 +168,11 @@ namespace Algorithms
                     d[1] = i * mid;
                     if (x == s[d[1]])
                     {
+                        watch.Stop();
+                        time = watch.Elapsed;
+
+                        //string res = $"{time.Hours:00}:{time.Minutes:00}:{time.Seconds:00}.{time.Milliseconds:00}";
+                        return time.Milliseconds;
                         return d[1];
                     }
                     else if (x.CompareTo(s[d[1]]) < 0)
@@ -184,10 +188,16 @@ namespace Algorithms
                     high = high - 1;
                 }
             }
-            return 0;
+
+            watch.Stop();
+            time = watch.Elapsed;
+
+            //string res = $"{time.Hours:00}:{time.Minutes:00}:{time.Seconds:00}.{time.Milliseconds:00}";
+            return time.Milliseconds;
+            
         }
 
-
+        //
 
         public static int Binaryn(int low, int high, List<string> s, string x, int n)
         {
@@ -229,6 +239,7 @@ namespace Algorithms
 
         public static int combination(string x, List<string> s, int low, int high, int n, int m)
         {
+            var watch = new System.Diagnostics.Stopwatch();
             while (high - low > m)
             {
                 if (x == s[low])
@@ -265,5 +276,47 @@ namespace Algorithms
             }
             return linear_search(x, s, low, high);
         }
+
+
+        public static int hybrid_search(string obj, List<string> data, int first, int last)
+        {
+            var watch = new System.Diagnostics.Stopwatch();
+            bool use_binary_search = false;
+
+            while (last - first > 16)
+            {
+                int midpoint = (first + last) / 2;
+                double d = (double)StringDiff(obj, data[first], 2) / StringDiff(data[last], data[first], 2);
+                int a = (int)((last - first) * d);
+                int b = use_binary_search ? midpoint : a;
+
+                if (obj == data[b])
+                {
+                    return b;
+                }
+                else if (obj.CompareTo(data[b]) < 0)
+                {
+                    last = b - 1;
+                    use_binary_search = (midpoint < b);
+                }
+                else
+                {
+                    first = b + 1;
+                    use_binary_search = (midpoint > b);
+                }
+
+            }
+
+            int i = first;
+            while (first < last && data[i] != obj)
+                i++;
+            if (data[i - 1].Equals(obj))
+                return i - 1;
+
+            TimeSpan time1 = watch.Elapsed;
+            //string res1 = $"{time1.Hours:00}:{time1.Minutes:00}:{time1.Seconds:00}.{time1.Milliseconds:00}";
+            return time1.Milliseconds;
+        }
+
     }
 };

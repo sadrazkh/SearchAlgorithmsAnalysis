@@ -18,3 +18,6 @@ D:\University\Books\Data Structure\Projects\SearchAlgorithmsAnalysis\SearchAlgor
 D:\University\Books\Data Structure\Projects\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\TestUnit\bin\Debug\netcoreapp3.1\Algorithms.pdb
 D:\University\Books\Data Structure\Projects\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\TestUnit\obj\Debug\netcoreapp3.1\TestUnit.csprojAssemblyReference.cache
 D:\University\Books\Data Structure\Projects\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\TestUnit\obj\Debug\netcoreapp3.1\TestUnit.csproj.CopyComplete
+C:\Users\Sadra\Source\Repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\TestUnit\bin\Debug\netcoreapp3.1\Algorithms.dll
+C:\Users\Sadra\Source\Repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\TestUnit\bin\Debug\netcoreapp3.1\Algorithms.pdb
+C:\Users\Sadra\Source\Repos\sadrazkh\SearchAlgorithmsAnalysis\SearchAlgorithmsAnalysis\TestUnit\obj\Debug\netcoreapp3.1\TestUnit.csproj.CopyComplete

@@ -78,8 +78,10 @@
       },
       "Data/1.0.0": {
         "dependencies": {
+          "Algorithms": "1.0.0",
           "System.IO": "4.3.0",
-          "System.IO.FileSystem": "4.3.0"
+          "System.IO.FileSystem": "4.3.0",
+          "TestUnit": "1.0.0"
         },
         "runtime": {
           "Data.dll": {}
