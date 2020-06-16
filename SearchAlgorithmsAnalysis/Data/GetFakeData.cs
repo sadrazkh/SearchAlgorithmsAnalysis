@@ -12,7 +12,7 @@ namespace Data
         
 
         private static List<string> _fakeData = new List<string>();
-
+        private static List<string> _fakeData1 = new List<string>();
 
         public static List<string> GetAll()
         {
@@ -31,18 +31,18 @@ namespace Data
 
         public static List<string> GetTestData()
         {
-            //string _fileName = Directory.GetCurrentDirectory() + "\\..\\..\\..\\..\\data\\TextFile1.txt";
-            //using (StreamReader sr = new StreamReader(@_fileName))
-            //{
-            //    for (int i = 0; sr.Peek() > -1; i++)
-            //    {
-            //        string line = sr.ReadLine();
-            //        _fakeData.Add(line);
-            //    }
-            //}
-            List<string> _fakeData = new List<string>(){ "alex.smith", "eric.graves", "juan.garcia", "laura.cross", "sandeep.shukla" };
+            string _fileName = Directory.GetCurrentDirectory() + "\\..\\..\\..\\..\\data\\chosen_sorted_fake_data.txt";
+            using (StreamReader sr = new StreamReader(@_fileName))
+            {
+                for (int i = 0; sr.Peek() > -1; i++)
+                {
+                    string line = sr.ReadLine();
+                    _fakeData1.Add(line);
+                }
+            }
+            //List<string> _fakeData = new List<string>(){ "alex.smith", "eric.graves", "juan.garcia", "laura.cross", "sandeep.shukla" };
 
-            return _fakeData;
+            return _fakeData1;
         }
 
         // kooft
