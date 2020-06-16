@@ -624,23 +624,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sadra\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Saleh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Main\\Main.csproj",
+      "projectUniqueName": "D:\\University\\Books\\Data Structure\\Projects\\Final\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Main\\Main.csproj",
       "projectName": "Main",
-      "projectPath": "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Main\\Main.csproj",
-      "packagesPath": "C:\\Users\\Sadra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Main\\obj\\",
+      "projectPath": "D:\\University\\Books\\Data Structure\\Projects\\Final\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Main\\Main.csproj",
+      "packagesPath": "C:\\Users\\Saleh\\.nuget\\packages\\",
+      "outputPath": "D:\\University\\Books\\Data Structure\\Projects\\Final\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Main\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Sadra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Saleh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -653,14 +649,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Algorithms\\Algorithms.csproj": {
-              "projectPath": "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Algorithms\\Algorithms.csproj"
+            "D:\\University\\Books\\Data Structure\\Projects\\Final\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Algorithms\\Algorithms.csproj": {
+              "projectPath": "D:\\University\\Books\\Data Structure\\Projects\\Final\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Algorithms\\Algorithms.csproj"
             },
-            "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Data\\Data.csproj"
+            "D:\\University\\Books\\Data Structure\\Projects\\Final\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Data\\Data.csproj": {
+              "projectPath": "D:\\University\\Books\\Data Structure\\Projects\\Final\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\Data\\Data.csproj"
             },
-            "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\TestUnit\\TestUnit.csproj": {
-              "projectPath": "C:\\Users\\Sadra\\source\\repos\\sadrazkh\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\TestUnit\\TestUnit.csproj"
+            "D:\\University\\Books\\Data Structure\\Projects\\Final\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\TestUnit\\TestUnit.csproj": {
+              "projectPath": "D:\\University\\Books\\Data Structure\\Projects\\Final\\SearchAlgorithmsAnalysis\\SearchAlgorithmsAnalysis\\TestUnit\\TestUnit.csproj"
             }
           }
         }

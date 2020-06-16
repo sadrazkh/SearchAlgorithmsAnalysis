@@ -98,13 +98,13 @@ namespace TestUnit
             //string res = $"{time.Hours:00}:{time.Minutes:00}:{time.Seconds:00}.{time.Milliseconds:00}";
             return $"{time.Milliseconds} in {testData.Count} case";
         }
-        public static string InterpolationSearchnewTest(List<string> data, List<string> testData)
+        public static string InterpolationSearchnewTest(List<string> data, List<string> testData, List<int> index)
         {
             var watch = new System.Diagnostics.Stopwatch();
             watch.Start();
             foreach (var test in testData)
             {
-                Algorithms.SearchAlgorithms.InterpolationSearch_new(test, data, new List<int>() {1, 2, 3});
+                Algorithms.SearchAlgorithms.InterpolationSearch_new(test, data, index);
             }
             watch.Stop();
             TimeSpan time = watch.Elapsed;
