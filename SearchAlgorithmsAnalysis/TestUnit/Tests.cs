@@ -8,43 +8,110 @@ namespace TestUnit
 {
     public class Tests
     {
-        public static int LinearSearchAverage(List<string> data, List<string> testData)
+        public static string LinearSearchAverage(List<string> data, List<string> testData)
         {
             int total = 0;
             int i = 0;
+            var watch = new System.Diagnostics.Stopwatch();
+            watch.Start();
             foreach (var test in testData)
             {
                 i++;
                 total += Algorithms.SearchAlgorithms.LinearSearch(test, data);
                 
             }
+            watch.Stop();
+            TimeSpan time = watch.Elapsed;
 
-            return total / 58;
+            //string res = $"{time.Hours:00}:{time.Minutes:00}:{time.Seconds:00}.{time.Milliseconds:00}";
+            return $"{time.Milliseconds} in {testData.Count} case";
+
+            //return total / numberOfTestData;
 
         }
 
-        public static int BinarySearchAverage(List<string> data, List<string> testData)
+        public static string BinarySearchAverage(List<string> data, List<string> testData)
         {
             int total = 0;
             int i = 0;
+            var watch = new System.Diagnostics.Stopwatch();
+            watch.Start();
             foreach (var test in testData)
             {
                 i++;
-                total += Algorithms.SearchAlgorithms.LinearSearch(test, data);
+                total += Algorithms.SearchAlgorithms.binarynorecursive(data, test);
 
             }
 
-            return total / 58;
-        }
-   
+            watch.Stop();
+            TimeSpan time = watch.Elapsed;
 
-        public static float InterAveragetime(List<string> names)
+            //string res = $"{time.Hours:00}:{time.Minutes:00}:{time.Seconds:00}.{time.Milliseconds:00}";
+            return $"{time.Milliseconds} in {testData.Count} case";
+
+            //return total / numberOfTestData;
+        }
+
+        public static string CombinationTest(List<string> data, List<string> testData, int threshold)
         {
-            int total = 0;
-            foreach (var item in names)
-                total += SearchAlgorithms.InterpolationSearch2(item, names);
-            return (float)total / names.Count;
+            var watch = new System.Diagnostics.Stopwatch();
+            watch.Start();
+            foreach (var test in testData)
+            {
+                Algorithms.SearchAlgorithms.FinalCombination(data, test, threshold);
+            }
+            watch.Stop();
+            TimeSpan time = watch.Elapsed;
+
+            //string res = $"{time.Hours:00}:{time.Minutes:00}:{time.Seconds:00}.{time.Milliseconds:00}";
+            return $"{time.Milliseconds} in {testData.Count} case threshold = {threshold} ";
+
+            //return total / numberOfTestData;
+        }
+
+        public static string InterpolationSearch1Test(List<string> data, List<string> testData)
+        {
+            var watch = new System.Diagnostics.Stopwatch();
+            watch.Start();
+            foreach (var test in testData)
+            {
+                Algorithms.SearchAlgorithms.InterpolationSearch1(test, data);
+            }
+            watch.Stop();
+            TimeSpan time = watch.Elapsed;
+
+            //string res = $"{time.Hours:00}:{time.Minutes:00}:{time.Seconds:00}.{time.Milliseconds:00}";
+            return $"{time.Milliseconds} in {testData.Count} case";
 
         }
+        public static string InterpolationSearch2Test(List<string> data, List<string> testData)
+        {
+            var watch = new System.Diagnostics.Stopwatch();
+            watch.Start();
+            foreach (var test in testData)
+            {
+                Algorithms.SearchAlgorithms.InterpolationSearch2(test, data);
+            }
+            watch.Stop();
+            TimeSpan time = watch.Elapsed;
+
+            //string res = $"{time.Hours:00}:{time.Minutes:00}:{time.Seconds:00}.{time.Milliseconds:00}";
+            return $"{time.Milliseconds} in {testData.Count} case";
+        }
+        public static string InterpolationSearchnewTest(List<string> data, List<string> testData)
+        {
+            var watch = new System.Diagnostics.Stopwatch();
+            watch.Start();
+            foreach (var test in testData)
+            {
+                Algorithms.SearchAlgorithms.InterpolationSearch_new(test, data, new List<int>() {1, 2, 3});
+            }
+            watch.Stop();
+            TimeSpan time = watch.Elapsed;
+
+            //string res = $"{time.Hours:00}:{time.Minutes:00}:{time.Seconds:00}.{time.Milliseconds:00}";
+            return $"{time.Milliseconds} in {testData.Count} case";
+        }
+
     }
 }

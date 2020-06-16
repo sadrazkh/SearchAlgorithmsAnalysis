@@ -24,6 +24,14 @@ namespace Algorithms
 
         }
 
+        public static int linear(List<string> namesList, string element, int low, int high)
+        {
+            while (low <= high && namesList[low] != element)
+                low++;
+            if (low > high)
+                low = 0;
+            return low;
+        }
 
         private static int linear_search(string element, List<string> namesList, int low, int high)
         {
@@ -144,98 +152,171 @@ namespace Algorithms
 
 
 
-        //Mahmood Functions
-        public static int binarynnorecursive(int low, int high, List<string> s, string x, int n)
+        //Mahmood Functions Start
+
+        public static int binary(List<string> namesList, string x, int low, int high)
         {
-            var watch = new System.Diagnostics.Stopwatch();
-            TimeSpan time;
-            while (low <= high)
-            {
-                if (x == s[low])
-                    return low;
-                if (x == s[high])
-                    return high;
-                int mid, lengh, i;
-                int[] d = new int[2];
-                lengh = (high - low + 1);
-                if (lengh < n)
-                    n = 2;
-                mid = lengh / n;
-                d[1] = low;
-                for (i = 1; i < n; i++)
-                {
-                    d[0] = d[1];
-                    d[1] = i * mid;
-                    if (x == s[d[1]])
-                    {
-                        watch.Stop();
-                        time = watch.Elapsed;
-
-                        //string res = $"{time.Hours:00}:{time.Minutes:00}:{time.Seconds:00}.{time.Milliseconds:00}";
-                        return time.Milliseconds;
-                        return d[1];
-                    }
-                    else if (x.CompareTo(s[d[1]]) < 0)
-                    {
-                        low = d[0] + 1;
-                        high = d[1] - 1;
-                        break;
-                    }
-                }
-                if (i == n)
-                {
-                    low = d[1] + 1;
-                    high = high - 1;
-                }
-            }
-
-            watch.Stop();
-            time = watch.Elapsed;
-
-            //string res = $"{time.Hours:00}:{time.Minutes:00}:{time.Seconds:00}.{time.Milliseconds:00}";
-            return time.Milliseconds;
-            
-        }
-
-        //
-
-        public static int Binaryn(int low, int high, List<string> s, string x, int n)
-        {
-
+            int mid;
             if (low > high)
                 return 0;
-            if (x == s[low])
-                return low;
-            if (x == s[high])
-                return high;
-            int mid, lengh, i;
-            int[] d = new int[2];
-            lengh = (high - low + 1);
-            if (lengh < n)
-                n = 2;
-            mid = lengh / n;
-            d[1] = low;
-            for (i = 1; i < n; i++)
+            else
             {
-                d[0] = d[1];
-                d[1] = i * mid;
-                if (x == s[d[1]])
+                mid = (low + high) / 2;
+                if ((x.CompareTo(namesList[mid])) == 0)
                 {
-                    return d[1];
+                    return mid;
                 }
-                else if (x.CompareTo(s[d[1]]) < 0)
+                else if ((x.CompareTo(namesList[mid])) == -1)
                 {
-                    return Binaryn(d[0] + 1, d[1] - 1, s, x, n);
+                    return binary(namesList, x, low, mid - 1);
                 }
-                return 0;
+                else
+                {
+                    return binary(namesList, x, mid + 1, high);
+                }
             }
-            if (i == n)
+        }
+        public static int binarynorecursive(List<string> namesList, string x)
+        {
+            int low, high, mid, location;
+            low = 1;
+            high = 3000;
+            location = 0;
+            while (low <= high && location == 0)
             {
-                return Binaryn(d[1] + 1, high - 1, s, x, n);
+                mid = (low + high) / 2;
+                if ((x.CompareTo(namesList[mid])) == 0)
+                {
+                    location = mid;
+                }
+                else if ((x.CompareTo(namesList[mid])) == -1)
+                {
+                    high = mid -1;
+                }
+                else
+                {
+                    low = mid + 1;
+                }
+                
             }
-            return 0;
+            return location;
         }
 
+        public static int FinalCombination(List<string> namesList, string x, int threshold)
+        {
+            int low = 1;
+            int high = 3000;
+            while (high - low > threshold)
+            {
+                int mid = (low + high) / 2;
+                if ((x.CompareTo(namesList[mid])) == 0)
+                {
+                    return mid;
+                }
+                else if ((x.CompareTo(namesList[mid])) == -1)
+                {
+                    high = mid - 1;
+                }
+                else
+                {
+                    low = mid + 1;
+                }
+            }
+            return linear(namesList, x, low, high);
+        }
+
+        //Mahmood Functions End
+
+
+
+        //public static int binarynnorecursive(int low, int high, List<string> s, string x, int n)
+        //{
+        //    var watch = new System.Diagnostics.Stopwatch();
+        //    TimeSpan time;
+        //    while (low <= high)
+        //    {
+        //        if (x == s[low])
+        //            return low;
+        //        if (x == s[high])
+        //            return high;
+        //        int mid, lengh, i;
+        //        int[] d = new int[2];
+        //        lengh = (high - low + 1);
+        //        if (lengh < n)
+        //            n = 2;
+        //        mid = lengh / n;
+        //        d[1] = low;
+        //        for (i = 1; i < n; i++)
+        //        {
+        //            d[0] = d[1];
+        //            d[1] = i * mid;
+        //            if (x == s[d[1]])
+        //            {
+        //                watch.Stop();
+        //                time = watch.Elapsed;
+
+        //                //string res = $"{time.Hours:00}:{time.Minutes:00}:{time.Seconds:00}.{time.Milliseconds:00}";
+        //                return time.Milliseconds;
+        //                return d[1];
+        //            }
+        //            else if (x.CompareTo(s[d[1]]) < 0)
+        //            {
+        //                low = d[0] + 1;
+        //                high = d[1] - 1;
+        //                break;
+        //            }
+        //        }
+        //        if (i == n)
+        //        {
+        //            low = d[1] + 1;
+        //            high = high - 1;
+        //        }
+        //    }
+
+        //    watch.Stop();
+        //    time = watch.Elapsed;
+
+        //    //string res = $"{time.Hours:00}:{time.Minutes:00}:{time.Seconds:00}.{time.Milliseconds:00}";
+        //    return time.Milliseconds;
+
+        //}
+
+        //public static int Binaryn(int low, int high, List<string> s, string x, int n)
+        //{
+
+        //    if (low > high)
+        //        return 0;
+        //    if (x == s[low])
+        //        return low;
+        //    if (x == s[high])
+        //        return high;
+        //    int mid, lengh, i;
+        //    int[] d = new int[2];
+        //    lengh = (high - low + 1);
+        //    if (lengh < n)
+        //        n = 2;
+        //    mid = lengh / n;
+        //    d[1] = low;
+        //    for (i = 1; i < n; i++)
+        //    {
+        //        d[0] = d[1];
+        //        d[1] = i * mid;
+        //        if (x == s[d[1]])
+        //        {
+        //            return d[1];
+        //        }
+        //        else if (x.CompareTo(s[d[1]]) < 0)
+        //        {
+        //            return Binaryn(d[0] + 1, d[1] - 1, s, x, n);
+        //        }
+        //        return 0;
+        //    }
+        //    if (i == n)
+        //    {
+        //        return Binaryn(d[1] + 1, high - 1, s, x, n);
+        //    }
+        //    return 0;
+        //}
 
         public static int combination(string x, List<string> s, int low, int high, int n, int m)
         {
@@ -276,7 +357,6 @@ namespace Algorithms
             }
             return linear_search(x, s, low, high);
         }
-
 
         public static int hybrid_search(string obj, List<string> data, int first, int last)
         {
