@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading;
 
 
@@ -10,7 +11,7 @@ namespace Algorithms
         public static int LinearSearch(string element, List<string> namesList)
         {
             var watch = new System.Diagnostics.Stopwatch();
-            int a = namesList.Capacity;
+            int a = namesList.Count();
             int i = 0;
             watch.Start();
             //Thread.Sleep(3000);

@@ -24,7 +24,7 @@ namespace TestUnit
             TimeSpan time = watch.Elapsed;
 
             //string res = $"{time.Hours:00}:{time.Minutes:00}:{time.Seconds:00}.{time.Milliseconds:00}";
-            return $"{time.Milliseconds} in {testData.Count} case";
+            return $"{time.Milliseconds} ms for {testData.Count} cases in Linear Search";
 
             //return total / numberOfTestData;
 
@@ -47,7 +47,7 @@ namespace TestUnit
             TimeSpan time = watch.Elapsed;
 
             //string res = $"{time.Hours:00}:{time.Minutes:00}:{time.Seconds:00}.{time.Milliseconds:00}";
-            return $"{time.Milliseconds} in {testData.Count} case";
+            return $"{time.Milliseconds} ms for {testData.Count} cases";
 
             //return total / numberOfTestData;
         }
@@ -64,7 +64,7 @@ namespace TestUnit
             TimeSpan time = watch.Elapsed;
 
             //string res = $"{time.Hours:00}:{time.Minutes:00}:{time.Seconds:00}.{time.Milliseconds:00}";
-            return $"{time.Milliseconds} in {testData.Count} case threshold = {threshold} ";
+            return $"{time.Milliseconds} ms for {testData.Count} cases in Combinational Search & threshold = {threshold} ";
 
             //return total / numberOfTestData;
         }
@@ -110,7 +110,7 @@ namespace TestUnit
             TimeSpan time = watch.Elapsed;
 
             //string res = $"{time.Hours:00}:{time.Minutes:00}:{time.Seconds:00}.{time.Milliseconds:00}";
-            return $"{time.Milliseconds} in {testData.Count} case";
+            return $"{time.Milliseconds} ms for {testData.Count} cases in Interpolation Search";
         }
 
     }

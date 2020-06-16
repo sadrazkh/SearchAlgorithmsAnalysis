@@ -23,8 +23,8 @@ namespace Main
             {
                 Console.WriteLine(Tests.CombinationTest(allData, testData, i));
             }
-            Console.WriteLine(Tests.InterpolationSearch1Test(allData, testData));
-            Console.WriteLine(Tests.InterpolationSearch2Test(allData, testData));
+            //Console.WriteLine(Tests.InterpolationSearch1Test(allData, testData));
+            //Console.WriteLine(Tests.InterpolationSearch2Test(allData, testData));
             Console.WriteLine(Tests.InterpolationSearchnewTest(allData, testData, index));
 
 
